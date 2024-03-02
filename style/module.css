@@ -1,0 +1,31 @@
+.accordion {
+    margin-bottom: 10px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .title {
+    flex: 1;
+  }
+  
+  .arrow {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.rotate {
+    transform: rotate(90deg);
+  }
+  
+  .content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
